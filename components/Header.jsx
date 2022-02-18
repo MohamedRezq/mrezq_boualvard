@@ -5,7 +5,7 @@ import logoImg from './../assets/boualvard_logo.png'
 
 const Header = () => {
   return (
-    <div className="header flex flex-col mx-28 pb-3">
+    <div className="header flex flex-col lg:mx-28 pb-3 mb-10">
       <div className="logoSection flex justify-center align-middle py-8">
         <Link href="/">
           <a>
