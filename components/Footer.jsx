@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">CEO's Message</a>
+              <a className="text-2xl text-stonish">CEO&#145;s Message</a>
             </Link>
           </div>
           <div>
