@@ -18,3 +18,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.slick-next::before, .slick-prev::before {
+  background-color: white;
+}
+
+.slick-next:before, .slick-prev:before {
+  color: #603A18;
+}

@@ -1,4 +1,5 @@
 module.exports = {
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './sections/**/*.{js,ts,jsx,tsx}'],
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
@@ -11,6 +12,7 @@ module.exports = {
         stonish: '#707070',
       },
       fontSize: {
+        xxs: ['10px', '1rem'],
         sm: ['14px', '1.25rem'],
         base: ['16px', '1.5rem'],
         "large": ['18px', '1.75rem'],

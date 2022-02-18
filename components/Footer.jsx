@@ -11,78 +11,78 @@ const Footer = () => {
         style={{ fontFamily: 'Space Grotesk' }}
       >
         <div className="flex flex-col space-y-3">
-          <div className="md:font-medium text-3xl text-golden py-3">
+          <div className="md:font-medium text-2xl text-golden py-3">
             Boualvard
           </div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">Company Profile</a>
+              <a className="text-xl text-stonish">Company Profile</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">Services</a>
+              <a className="text-xl text-stonish">Services</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">Clients</a>
+              <a className="text-xl text-stonish">Clients</a>
             </Link>
           </div>
         </div>
         <div className="flex flex-col space-y-3">
-          <div className="md:font-medium text-3xl text-golden py-3">
+          <div className="md:font-medium text-2xl text-golden py-3">
             Online Services
           </div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">Join Us</a>
+              <a className="text-xl text-stonish">Join Us</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">Contact Us</a>
+              <a className="text-xl text-stonish">Contact Us</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">Enquiry</a>
-            </Link>
-          </div>
-        </div>
-        <div className="flex flex-col space-y-3">
-          <div className="md:font-medium text-3xl text-golden py-3">About Us</div>
-          <div>
-            <Link href="/">
-              <a className="text-2xl text-stonish">About Us</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/">
-              <a className="text-2xl text-stonish">CEO&rsquo;s Message</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/">
-              <a className="text-2xl text-stonish">Our History</a>
+              <a className="text-xl text-stonish">Enquiry</a>
             </Link>
           </div>
         </div>
         <div className="flex flex-col space-y-3">
-          <div className="md:font-medium text-3xl text-golden py-3">Media</div>
+          <div className="md:font-medium text-2xl text-golden py-3">About Us</div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">Gallery</a>
+              <a className="text-xl text-stonish">About Us</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">Our Projects</a>
+              <a className="text-xl text-stonish">CEO&rsquo;s Message</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-2xl text-stonish">
+              <a className="text-xl text-stonish">Our History</a>
+            </Link>
+          </div>
+        </div>
+        <div className="flex flex-col space-y-3">
+          <div className="md:font-medium text-2xl text-golden py-3">Media</div>
+          <div>
+            <Link href="/">
+              <a className="text-xl text-stonish">Gallery</a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/">
+              <a className="text-xl text-stonish">Our Projects</a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/">
+              <a className="text-xl text-stonish">
                 Awards &#38; Recognition
               </a>
             </Link>
