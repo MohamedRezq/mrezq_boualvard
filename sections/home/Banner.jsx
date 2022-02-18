@@ -15,7 +15,7 @@ const Banner = () => {
         <div className="flex items-center" style={{justifyContent: "space-between", fontSize: "36px", lineHeight: "46px"}}>
           <div className="font-bold text-golden">Press Release</div>
           <div>
-            <i class="fas text-brownish fa-chevron-circle-right"></i>
+            <i className="fas text-brownish fa-chevron-circle-right"></i>
           </div>
         </div>
         <div className='py-3 flex flex-col text-brownish '>

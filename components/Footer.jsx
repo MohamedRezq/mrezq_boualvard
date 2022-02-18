@@ -113,9 +113,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex justify-center space-x-6 items-center">
-          <Link href="/"><a><i class="fab fa-lg fa-facebook-f"></i></a></Link>
-          <Link href="/"><a><i class="fab fa-lg fa-instagram"></i></a></Link>
-          <Link href="/"><a><i class="fab fa-lg fa-linkedin-in"></i></a></Link>
+          <Link href="/"><a><i className="fab fa-lg fa-facebook-f"></i></a></Link>
+          <Link href="/"><a><i className="fab fa-lg fa-instagram"></i></a></Link>
+          <Link href="/"><a><i className="fab fa-lg fa-linkedin-in"></i></a></Link>
         </div>
       </div>
     </div>
