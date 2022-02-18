@@ -9,7 +9,7 @@ const Banner = () => {
       style={{ fontFamily: 'Space Grotesk', justifyContent: "space-between" }}
     >
       <div>
-        <Image src={bannerImg} layout="fixed" />
+        <Image src={bannerImg} />
       </div>
       <div style={{border: "solid 1px #C3922C", padding: "55px 30px"}}>
         <div className="flex items-center" style={{justifyContent: "space-between", fontSize: "36px", lineHeight: "46px"}}>
