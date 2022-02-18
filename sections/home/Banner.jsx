@@ -5,13 +5,16 @@ import Image from 'next/image'
 const Banner = () => {
   return (
     <div
-      className="flex justify-between w-full"
+      className="flex flex-col md:flex-row justify-between w-full"
       style={{ fontFamily: 'Space Grotesk', justifyContent: "space-between" }}
     >
-      <div className='w-9/12 mr-10 relative'>
-        <Image src={bannerImg} layout="fill" />
+      <div className='w-11/12 md:w-9/12 md:mr-10 relative'>
+        <Image src={bannerImg} layout="fill" className='' />
       </div>
-      <div className='w-3/12 px-5 py-5' style={{border: "solid 1px #C3922C"}}>
+      <div className='w-full mb-5 relative block md:hidden'>
+        <Image src={bannerImg} />
+      </div>
+      <div className='w-full md:w-3/12 px-5 py-5' style={{border: "solid 1px #C3922C"}}>
         <div className="flex items-center text-xl" style={{justifyContent: "space-between"}}>
           <div className="font-bold text-golden">Press Release</div>
           <div>

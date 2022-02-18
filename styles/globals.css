@@ -26,3 +26,12 @@ a {
 .slick-next:before, .slick-prev:before {
   color: #603A18;
 }
+
+.bigImg span {
+  width: 100% !important;
+}
+
+.social span{
+  width: 100% !important;
+  height: 100% !important;
+}
