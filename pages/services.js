@@ -17,7 +17,7 @@ const services = () => {
       <Head>
         <title>Services - Boualvard</title>
       </Head>
-      <div className="w-full">
+      <div className="w-full ">
         <Image src={servicesBanner} />
       </div>
       <div

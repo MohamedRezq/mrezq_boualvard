@@ -10,6 +10,7 @@ module.exports = {
         golden: '#C3922C',
         brownish: '#603A18',
         stonish: '#707070',
+        grayish: "#F5F5F5"
       },
       fontSize: {
         xxs: ['11px', '1rem'],
@@ -22,6 +23,16 @@ module.exports = {
         '4xl': ['36px', '2.5rem'],
         '5xl': ['48px', '1'],
       },
+      borderWidth: {
+        DEFAULT: '1px',
+        '0': '0',
+        '1': '1px',
+        '2': '2px',
+        '3': '3px',
+        '4': '4px',
+        '6': '6px',
+        '8': '8px',
+      }
     },
   },
   plugins: [],

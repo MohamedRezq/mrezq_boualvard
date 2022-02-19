@@ -34,7 +34,7 @@ const OurClients = () => {
         <div style={{border: "solid 1px #C3922C"}}><Image src={client12} /></div>
     </div>
      <div className='flex justify-center pt-10'>
-     <button class="mx-auto px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors text-sm transform bg-golden">
+     <button className="mx-auto px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors text-sm transform bg-golden">
         VIEW MORE
      </button>
      </div>

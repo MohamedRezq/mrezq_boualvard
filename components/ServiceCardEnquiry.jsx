@@ -14,7 +14,7 @@ const ServiceCardEnquiry = ({
       </div>
       <div className="text-brownish font-bold text-sm pt-2">{title}</div>
       <div className="text-stonish text-xs">{content}</div>
-      <button class="px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors text-xs transform bg-golden w-1/2">
+      <button className="px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors text-xs transform bg-golden w-1/2">
         ENQUIRE NOW
       </button>
     </div>

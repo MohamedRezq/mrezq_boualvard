@@ -22,7 +22,7 @@ const Header = () => {
       >
         <ul
           style={{ fontFamily: 'Space Grotesk' }}
-          className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:font-medium text-brownish text-2xl"
+          className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:font-medium text-brownish text-lg xl:text-2xl"
         >
           <li>
             <Link href="#">
@@ -50,8 +50,8 @@ const Header = () => {
 const DropDown = ({name}) => {
   return (
     <>
-    <select className="md:mt-0 md:font-medium text-brownish text-2xl block py-2 pr-4" style={{ fontFamily: 'Space Grotesk' }}>
-    <option className="text-brownish text-2xl block py-2 pr-4">{name}</option>
+    <select className="md:mt-0 md:font-medium text-brownish text-lg xl:text-2xl block py-2 pr-4" style={{ fontFamily: 'Space Grotesk' }}>
+    <option className="text-brownish text-lg xl:text-2xl block py-2 pr-4">{name}</option>
     {[1,2,3,4].map((opt, i) => (
       <option key={i+1}>{name}{" "}{opt}</option>
     ))}
