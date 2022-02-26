@@ -27,7 +27,7 @@ const ceo = () => {
         <title>CEO - Boualvard</title>
       </Head>
       <div className="w-full ">
-        <Image src={ceoBanner} />
+        <Image src={ceoBanner} height={1500} />
       </div>
       <div
         className="mx-12 lg:mx-28 flex flex-col space-y-5"
