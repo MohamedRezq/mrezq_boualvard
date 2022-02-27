@@ -11,78 +11,78 @@ const Footer = () => {
         style={{ fontFamily: 'Space Grotesk' }}
       >
         <div className="flex flex-col space-y-3">
-          <div className="md:font-medium text-xl text-golden py-3">
+          <div className="text-base font-bold md:text-xl text-golden py-3">
             Boualvard
           </div>
           <div>
             <Link href="/">
-              <a className="text-lg text-stonish">Company Profile</a>
+              <a className="text-sm md:text-lg text-stonish">Company Profile</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-lg text-stonish">Services</a>
+              <a className="text-sm md:text-lg text-stonish">Services</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-lg text-stonish">Clients</a>
+              <a className="text-sm md:text-lg text-stonish">Clients</a>
             </Link>
           </div>
         </div>
         <div className="flex flex-col space-y-3">
-          <div className="md:font-medium text-xl text-golden py-3">
+          <div className="text-base font-bold md:text-xl text-golden py-3">
             Online Services
           </div>
           <div>
             <Link href="/">
-              <a className="text-lg text-stonish">Join Us</a>
+              <a className="text-sm md:text-lg text-stonish">Join Us</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-lg text-stonish">Contact Us</a>
+              <a className="text-sm md:text-lg text-stonish">Contact Us</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-lg text-stonish">Enquiry</a>
-            </Link>
-          </div>
-        </div>
-        <div className="flex flex-col space-y-3">
-          <div className="md:font-medium text-xl text-golden py-3">About Us</div>
-          <div>
-            <Link href="/">
-              <a className="text-lg text-stonish">About Us</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/">
-              <a className="text-lg text-stonish">CEO&rsquo;s Message</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/">
-              <a className="text-lg text-stonish">Our History</a>
+              <a className="text-sm md:text-lg text-stonish">Enquiry</a>
             </Link>
           </div>
         </div>
         <div className="flex flex-col space-y-3">
-          <div className="md:font-medium text-xl text-golden py-3">Media</div>
+          <div className="text-base font-bold md:text-xl text-golden py-3">About Us</div>
           <div>
             <Link href="/">
-              <a className="text-lg text-stonish">Gallery</a>
+              <a className="text-sm md:text-lg text-stonish">About Us</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-lg text-stonish">Our Projects</a>
+              <a className="text-sm md:text-lg text-stonish">CEO&rsquo;s Message</a>
             </Link>
           </div>
           <div>
             <Link href="/">
-              <a className="text-lg text-stonish">
+              <a className="text-sm md:text-lg text-stonish">Our History</a>
+            </Link>
+          </div>
+        </div>
+        <div className="flex flex-col space-y-3">
+          <div className="text-base font-bold md:text-xl text-golden py-3">Media</div>
+          <div>
+            <Link href="/">
+              <a className="text-sm md:text-lg text-stonish">Gallery</a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/">
+              <a className="text-sm md:text-lg text-stonish">Our Projects</a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/">
+              <a className="text-sm md:text-lg text-stonish">
                 Awards &#38; Recognition
               </a>
             </Link>
@@ -94,28 +94,28 @@ const Footer = () => {
         style={{ fontFamily: 'Space Grotesk' }}
       >
         <div className="flex flex-col mb-5 sm:mb-0 sm:flex-row space-x-5 items-center">
-          <div>
+          <div className="text-sm md:text-lg">
             <Link href="/">
               <a>All Rights Reserved</a>
             </Link>
           </div>
-          <div className="text-xl font-bold">&#8901;</div>
-          <div>
+          <div className="text-sm md:text-lg font-bold">&#8901;</div>
+          <div className="text-sm md:text-lg">
             <Link href="/">
               <a>www.boualvard.com</a>
             </Link>
           </div>
-          <div className="text-xl font-bold">&#8901;</div>
-          <div>
+          <div className="text-sm md:text-lg font-bold">&#8901;</div>
+          <div className="text-sm md:text-lg">
             <Link href="/">
               <a>Copyright &#169; 2022</a>
             </Link>
           </div>
         </div>
         <div className="flex justify-center space-x-6 items-center">
-          <Link href="/"><a><i className="fab fa-lg fa-facebook-f"></i></a></Link>
-          <Link href="/"><a><i className="fab fa-lg fa-instagram"></i></a></Link>
-          <Link href="/"><a><i className="fab fa-lg fa-linkedin-in"></i></a></Link>
+          <Link href="/"><a><i className="fab md:fa-lg fa-facebook-f"></i></a></Link>
+          <Link href="/"><a><i className="fab md:fa-lg fa-instagram"></i></a></Link>
+          <Link href="/"><a><i className="fab md:fa-lg fa-linkedin-in"></i></a></Link>
         </div>
       </div>
     </div>
