@@ -11,7 +11,8 @@ module.exports = {
         goldenLight: '#DD9933',
         brownish: '#603A18',
         stonish: '#707070',
-        grayish: "#F5F5F5"
+        grayish: "#F5F5F5",
+        whitish: "rgba(255, 255, 255, 0.9)",
       },
       fontSize: {
         xxs: ['11px', '1rem'],
