@@ -18,10 +18,16 @@ const Awards = () => {
         <title>Awards and Recognition - Boualvard</title>
       </Head>
       <div className="relative overflow-hidden">
-        <div id="rightShape" className="top-0 -right-16 w-32 h-[96rem]">
+        <div
+          id="rightShape"
+          className="top-0 -right-16 w-32 h-[96rem] hidden lg:block"
+        >
           {' '}
         </div>
-        <div id="leftShape" className="top-20 -left-16 w-56 h-[96rem]">
+        <div
+          id="leftShape"
+          className="top-20 -left-16 w-56 h-[96rem] hidden lg:block"
+        >
           {' '}
         </div>
         <div className="w-full relative flex items-center">
@@ -56,7 +62,10 @@ const Awards = () => {
           </div>
           <div className="z-20 grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:flex lg:flex-row lg:justify-between lg:space-x-5 pt-4">
             {[awardObj1, awardObj2, awardObj3, awardObj4].map((award, i) => (
-              <div key={i + 1} className="flex flex-col space-y-5 w-60 mx-auto bg-white">
+              <div
+                key={i + 1}
+                className="flex flex-col space-y-5 w-60 mx-auto bg-white"
+              >
                 <div className="h-52 border-golden border-1 flex items-center">
                   <div className="h-1/3 relative">
                     <Image src={award.awardCardImg} />
@@ -70,7 +79,10 @@ const Awards = () => {
           </div>
           <div className="z-20 grid mt-5 lg:mt-0 gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:flex lg:flex-row lg:justify-around lg:space-x-5 pt-4 lg:px-32">
             {[awardObj5, awardObj6, awardObj7].map((award, i) => (
-              <div key={i + 1} className="flex flex-col space-y-5 w-60 mx-auto bg-white">
+              <div
+                key={i + 1}
+                className="flex flex-col space-y-5 w-60 mx-auto bg-white"
+              >
                 <div className="h-52 border-golden border-1 flex items-center">
                   <div className="h-1/3 relative">
                     <Image src={award.awardCardImg} />
