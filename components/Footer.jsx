@@ -11,76 +11,76 @@ const Footer = () => {
         style={{ fontFamily: 'Space Grotesk' }}
       >
         <div className="flex flex-col space-y-3">
-          <div className="text-base font-bold md:text-xl text-golden py-3">
+          <div className="mx-auto md:mx-0 text-base font-bold md:text-xl text-golden py-3">
             Boualvard
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
               <a className="text-sm md:text-lg text-stonish">Company Profile</a>
             </Link>
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
               <a className="text-sm md:text-lg text-stonish">Services</a>
             </Link>
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
               <a className="text-sm md:text-lg text-stonish">Clients</a>
             </Link>
           </div>
         </div>
         <div className="flex flex-col space-y-3">
-          <div className="text-base font-bold md:text-xl text-golden py-3">
+          <div className="mx-auto md:mx-0 text-base font-bold md:text-xl text-golden py-3">
             Online Services
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
               <a className="text-sm md:text-lg text-stonish">Join Us</a>
             </Link>
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
               <a className="text-sm md:text-lg text-stonish">Contact Us</a>
             </Link>
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
               <a className="text-sm md:text-lg text-stonish">Enquiry</a>
             </Link>
           </div>
         </div>
         <div className="flex flex-col space-y-3">
-          <div className="text-base font-bold md:text-xl text-golden py-3">About Us</div>
-          <div>
+          <div className="mx-auto md:mx-0 text-base font-bold md:text-xl text-golden py-3">About Us</div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
               <a className="text-sm md:text-lg text-stonish">About Us</a>
             </Link>
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
-              <a className="text-sm md:text-lg text-stonish">CEO&rsquo;s Message</a>
+              <a className="mx-auto md:mx-0 text-sm md:text-lg text-stonish">CEO&rsquo;s Message</a>
             </Link>
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
-              <a className="text-sm md:text-lg text-stonish">Our History</a>
+              <a className="mx-auto md:mx-0 text-sm md:text-lg text-stonish">Our History</a>
             </Link>
           </div>
         </div>
         <div className="flex flex-col space-y-3">
-          <div className="text-base font-bold md:text-xl text-golden py-3">Media</div>
-          <div>
+          <div className="mx-auto md:mx-0 text-base font-bold md:text-xl text-golden py-3">Media</div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
-              <a className="text-sm md:text-lg text-stonish">Gallery</a>
+              <a className="mx-auto md:mx-0 text-sm md:text-lg text-stonish">Gallery</a>
             </Link>
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
-              <a className="text-sm md:text-lg text-stonish">Our Projects</a>
+              <a className="mx-auto md:mx-0 text-sm md:text-lg text-stonish">Our Projects</a>
             </Link>
           </div>
-          <div>
+          <div className='mx-auto md:mx-0'>
             <Link href="/">
               <a className="text-sm md:text-lg text-stonish">
                 Awards &#38; Recognition
