@@ -22,8 +22,8 @@ const Header = () => {
             console.log(mobileOpen)
           }}
         >
-          {!mobileOpen && <i class="fas fa-bars text-golden fa-2x"></i>}
-          {mobileOpen && <i class="text-golden fa-2x fas fa-times"></i>}
+          {!mobileOpen && <i className="fas fa-bars text-golden fa-2x"></i>}
+          {mobileOpen && <i className="text-golden fa-2x fas fa-times"></i>}
         </div>
         {mobileOpen && <MobileNavLinks />}
       </div>
