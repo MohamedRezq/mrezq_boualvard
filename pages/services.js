@@ -17,8 +17,8 @@ const services = () => {
       <Head>
         <title>Services - Boualvard</title>
       </Head>
-      <div className="w-full ">
-        <Image src={servicesBanner}  height={700} />
+      <div className="w-full relative">
+        <Image src={servicesBanner} layout="responsive" height={700}  />
       </div>
       <div
         className="mx-12 lg:mx-28 flex flex-col space-y-5"

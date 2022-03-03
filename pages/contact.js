@@ -12,7 +12,7 @@ const Contact = () => {
         <title>Contact Us - Boualvard</title>
       </Head>
       <div className="w-full">
-        <Image src={contactBanner} height={1400}/>
+        <Image src={contactBanner} height={1300}/>
       </div>
       <div
         className="mx-12 lg:mx-28 flex flex-col md:space-y-5"

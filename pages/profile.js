@@ -14,7 +14,7 @@ const Profile = () => {
         <title>Company Profile - Boualvard</title>
       </Head>
       <div className="w-full">
-        <Image src={profileBanner} height={700}/>
+        <Image src={profileBanner} height={475}/>
       </div>
       <div
         className="mx-12 lg:mx-28 flex flex-col md:space-y-5"

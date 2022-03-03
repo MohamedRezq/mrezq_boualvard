@@ -29,7 +29,7 @@ const services = () => {
         <title>About - Boualvard</title>
       </Head>
       <div className="w-full ">
-        <Image src={aboutBanner} height={700} />
+        <Image src={aboutBanner} height={550} />
       </div>
       <div
         className="mx-12 lg:mx-28 flex flex-col space-y-5"

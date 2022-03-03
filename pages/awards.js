@@ -31,7 +31,7 @@ const Awards = () => {
           {' '}
         </div>
         <div className="w-full relative flex items-center">
-          <Image src={awardsBanner} height={1200} />
+          <Image src={awardsBanner} height={1300} />
           <div
             className="absolute z-20 bg-whitish ml-5 md:ml-10 py-2 md:py-3 lg:py-5 px-5 md:px-10 lg:px-20 lg:ml-20 text-brownish text-base md:text-xl lg:text-3xl font-bold"
             style={{ fontFamily: 'Space Grotesk' }}
