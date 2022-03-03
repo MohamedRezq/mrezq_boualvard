@@ -1,8 +1,22 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import { useRouter } from 'next/router'
+import React, { useState, useEffect } from 'react'
 import logoImg from './../assets/boualvard_logo.png'
 
+const servicesOptionsMenu = [
+  'Hard Services',
+  'Management Services',
+  'Soft Services',
+  'Health & Safety Services',
+  'Property Management Services',
+  'Sterilisation & Disinfection Services',
+]
+const aboutOptionsMenu = [
+  'Our Vision',
+  'Our Mission',
+  'Our Values'
+]
 const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false)
   return (
@@ -35,19 +49,33 @@ const Header = () => {
   )
 }
 
-const DropDown = ({ name }) => {
+const DropDown = ({ name, optionsMenu }) => {
+  const [reload, setReload] = useState(false);
+  useEffect(() => {
+    
+  }, [reload])
+  
+  const router = useRouter()
   return (
     <>
       <select
-        className="md:mt-0 md:font-medium text-brownish md:text-base lg:text-lg xl:text-2xl block py-2 pr-4"
+        className="w-52 md:mt-0 md:font-medium text-brownish md:text-base lg:text-lg xl:text-2xl block py-2 pr-4"
         style={{ fontFamily: 'Space Grotesk' }}
+        onChange={(e) => {
+          if(name === "OUR SERVICES") {router.push(`/services`)}
+          else if(name === "ABOUT US") {router.push(`/about`)}
+        }}
+        value={name}
       >
-        <option className="text-brownish md:text-base lg:text-lg xl:text-2xl block py-2 pr-4">
+        <option
+          selected="selected"
+          className="text-brownish md:text-base lg:text-lg xl:text-2xl block py-2 pr-4"
+        >
           {name}
         </option>
-        {[1, 2, 3, 4].map((opt, i) => (
-          <option key={i + 1}>
-            {name} {opt}
+        {optionsMenu.map((opt, i) => (
+          <option key={i + 1} className="text-base">
+            {opt}
           </option>
         ))}
       </select>
@@ -67,19 +95,19 @@ const NavLinks = ({}) => {
         className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:font-medium text-brownish md:text-base lg:text-lg xl:text-2xl"
       >
         <li>
-          <Link href="#">
+          <Link href="/">
             <a className="block py-2 pr-4">HOME</a>
           </Link>
         </li>
-        <DropDown name="ABOUT US" />
-        <DropDown name="OUR SERVICES" />
+        <DropDown name="ABOUT US" optionsMenu={aboutOptionsMenu} />
+        <DropDown name="OUR SERVICES" optionsMenu={servicesOptionsMenu} />
         <li>
-          <Link href="#">
+          <Link href="/contact">
             <a className="block py-2 pr-4 pl-3">CONTACT US</a>
           </Link>
         </li>
         <li>
-          <Link href="#">
+          <Link href="/about">
             <a className="block py-2 pr-4 pl-3">COMPANY</a>
           </Link>
         </li>
@@ -97,19 +125,19 @@ const MobileNavLinks = ({}) => {
           className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:font-medium text-brownish md:text-base lg:text-lg xl:text-2xl"
         >
           <li>
-            <Link href="#">
+            <Link href="/">
               <a className="block py-2 pl-1">HOME</a>
             </Link>
           </li>
-          <DropDown name="ABOUT US" />
-          <DropDown name="OUR SERVICES"/>
+          <DropDown name="ABOUT US" optionsMenu={aboutOptionsMenu} />
+          <DropDown name="OUR SERVICES" optionsMenu={servicesOptionsMenu} />
           <li>
-            <Link href="#">
+            <Link href="/contact">
               <a className="block py-2 pl-1">CONTACT US</a>
             </Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/about">
               <a className="block py-2 pl-1">COMPANY</a>
             </Link>
           </li>
@@ -117,71 +145,4 @@ const MobileNavLinks = ({}) => {
       </div>
     </div>
   )
-}
-
-{
-  /*
-
-<div className="flex items-center h-20 px-6 justify-between border-b border-gray-300 bg-blue-800 text-white relative z-50">
-      <div className="h-8">
-        <img
-          src="https://gustui.s3.amazonaws.com/Gust+Logo+White.png"
-          className="h-full"
-        />
-      </div>
-      ///////// Normal Nav Links
-      <FontAwesomeIcon
-        icon={mobileOpen ? faTimes : faBars}
-        onClick={() => setMobileOpen(!mobileOpen)}
-        className="text-white text-3xl cursor-pointer lg:hidden"
-      />
-      {mobileOpen && (
-        <div className="bg-blue-800 absolute top-full left-0 flex flex-col w-full pb-8 lg:hidden">
-          <div className="flex-1 flex flex-col items-center text-xl">
-            <a
-              href="#"
-              className="no-underline px-2 my-2 text-gray-200 font-medium hover:text-blue-400"
-            >
-              Home
-            </a>
-            <a
-              href="#"
-              className="no-underline px-2 my-2 font-medium hover:text-blue-400"
-            >
-              Dogs
-            </a>
-            <a
-              href="#"
-              className="no-underline px-2 my-2 text-gray-200 font-medium hover:text-blue-400"
-            >
-              Bones
-            </a>
-            <a
-              href="#"
-              className="no-underline px-2 my-2 text-gray-200 font-medium hover:text-blue-400"
-            >
-              Settings
-            </a>
-            <Button text="Add Food" size="sm" className="my-2" />
-            <div className="my-2 flex justify-center">
-              <FontAwesomeIcon
-                icon={faQuestionCircle}
-                className="text-2xl mx-2 cursor-pointer"
-              />
-              <FontAwesomeIcon
-                icon={faBell}
-                className="text-2xl mx-2 cursor-pointer"
-              />
-            </div>
-            <Avatar
-              image="https://picsum.photos/id/237/200/200.jpg"
-              status="online"
-              className="cursor-pointer my-2"
-            />
-          </div>
-        </div>
-      )}
-    </div>
-
-*/
 }

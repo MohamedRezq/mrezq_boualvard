@@ -15,17 +15,17 @@ const Footer = () => {
             Boualvard
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/profile">
               <a className="text-sm md:text-lg text-stonish">Company Profile</a>
             </Link>
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/services">
               <a className="text-sm md:text-lg text-stonish">Services</a>
             </Link>
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/clients">
               <a className="text-sm md:text-lg text-stonish">Clients</a>
             </Link>
           </div>
@@ -35,17 +35,17 @@ const Footer = () => {
             Online Services
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/contact">
               <a className="text-sm md:text-lg text-stonish">Join Us</a>
             </Link>
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/contact">
               <a className="text-sm md:text-lg text-stonish">Contact Us</a>
             </Link>
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/enquiry">
               <a className="text-sm md:text-lg text-stonish">Enquiry</a>
             </Link>
           </div>
@@ -53,17 +53,17 @@ const Footer = () => {
         <div className="flex flex-col space-y-3">
           <div className="mx-auto md:mx-0 text-base font-bold md:text-xl text-golden py-3">About Us</div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/about">
               <a className="text-sm md:text-lg text-stonish">About Us</a>
             </Link>
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/ceo">
               <a className="mx-auto md:mx-0 text-sm md:text-lg text-stonish">CEO&rsquo;s Message</a>
             </Link>
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/history">
               <a className="mx-auto md:mx-0 text-sm md:text-lg text-stonish">Our History</a>
             </Link>
           </div>
@@ -71,17 +71,17 @@ const Footer = () => {
         <div className="flex flex-col space-y-3">
           <div className="mx-auto md:mx-0 text-base font-bold md:text-xl text-golden py-3">Media</div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/gallery">
               <a className="mx-auto md:mx-0 text-sm md:text-lg text-stonish">Gallery</a>
             </Link>
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/projects">
               <a className="mx-auto md:mx-0 text-sm md:text-lg text-stonish">Our Projects</a>
             </Link>
           </div>
           <div className='mx-auto md:mx-0'>
-            <Link href="/">
+            <Link href="/awards">
               <a className="text-sm md:text-lg text-stonish">
                 Awards &#38; Recognition
               </a>
@@ -101,13 +101,13 @@ const Footer = () => {
           </div>
           <div className="text-sm md:text-lg font-bold">&#8901;</div>
           <div className="text-sm md:text-lg">
-            <Link href="/">
+            <Link href="https://www.boualvard.com">
               <a>www.boualvard.com</a>
             </Link>
           </div>
           <div className="text-sm md:text-lg font-bold">&#8901;</div>
           <div className="text-sm md:text-lg">
-            <Link href="/">
+            <Link href="https://www.boualvard.com">
               <a>Copyright &#169; 2022</a>
             </Link>
           </div>

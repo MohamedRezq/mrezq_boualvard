@@ -10,6 +10,7 @@ import healthServicesImg from "./../assets/healthServicesImg.jpg"
 import propertyServicesImg from "./../assets/propertyServicesImg.jpg"
 import sterServicesImg from "./../assets/sterServicesImg.jpg"
 import MainTitle from '../components/MainTitle'
+const servicesOptionsMenu = ["Hard Services", "Management Services", "Soft Services", "Health & Safety Services", "Property Management Services", "Sterilisation & Disinfection Services"]
 
 const services = () => {
   return (
@@ -25,13 +26,13 @@ const services = () => {
         style={{ fontFamily: 'Space Grotesk' }}
       >
           <MainTitle title="Our Services" />
-          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3'>
-          <ServiceCardEnquiry title="Hard Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={hardServicesImg} />
-          <ServiceCardEnquiry title="Management Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={managementServicesImg} />
-          <ServiceCardEnquiry title="Soft Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={softServicesImg} />
-          <ServiceCardEnquiry title="Health &#38; Safety Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={healthServicesImg} />
-          <ServiceCardEnquiry title="Property Management Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={propertyServicesImg} />
-          <ServiceCardEnquiry title="Sterilisation &#38; Disinfection Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={sterServicesImg} />
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
+          <ServiceCardEnquiry id="HardServices" title="Hard Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={hardServicesImg} />
+          <ServiceCardEnquiry id={servicesOptionsMenu[1]} title="Management Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={managementServicesImg} />
+          <ServiceCardEnquiry id={servicesOptionsMenu[2]} title="Soft Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={softServicesImg} />
+          <ServiceCardEnquiry id={servicesOptionsMenu[3]} title="Health &#38; Safety Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={healthServicesImg} />
+          <ServiceCardEnquiry id={servicesOptionsMenu[4]} title="Property Management Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={propertyServicesImg} />
+          <ServiceCardEnquiry id={servicesOptionsMenu[5]} title="Sterilisation &#38; Disinfection Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={sterServicesImg} />
           </div>
       </div>
     </>
