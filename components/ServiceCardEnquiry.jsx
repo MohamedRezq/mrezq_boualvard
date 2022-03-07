@@ -10,8 +10,8 @@ const ServiceCardEnquiry = ({
 }) => {
   const router = useRouter();
   return (
-    <div className="flex flex-col space-y-3 mx-2 mb-16" style={{ height: '300px' }}>
-      <div className="relative h-60">
+    <div className="flex flex-col space-y-3 mb-16 w-80 mx-auto" style={{ height: '300px' }}>
+      <div className="relative h-72">
         <Image src={img} layout="fill" />
       </div>
       <div className="text-brownish font-bold text-sm pt-2">{title}</div>
