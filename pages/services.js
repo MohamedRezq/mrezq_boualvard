@@ -22,11 +22,11 @@ const services = () => {
         <Image src={servicesBanner} layout="responsive" height={700}  />
       </div>
       <div
-        className="mx-12 lg:mx-28 flex flex-col space-y-5"
+        className="mx-10 lg:mx-28 flex flex-col space-y-5"
         style={{ fontFamily: 'Space Grotesk' }}
       >
           <MainTitle title="Our Services" />
-          <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-12 gap-y-4'>
+          <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-12 gap-y-4 mx-4 sm:mx-0'>
           <ServiceCardEnquiry id="HardServices" title="Hard Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={hardServicesImg} />
           <ServiceCardEnquiry id={servicesOptionsMenu[1]} title="Management Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={managementServicesImg} />
           <ServiceCardEnquiry id={servicesOptionsMenu[2]} title="Soft Services" content="we are specialized in high-quality cleaning services to deliver cleanest work environment." img={softServicesImg} />
