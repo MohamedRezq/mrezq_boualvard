@@ -11,7 +11,7 @@ const services = () => {
         <title>History - Boualvard</title>
       </Head>
       <div className="w-full relative">
-        <Image src={historyBanner} layout="responsive" height={280} />
+        <Image src={historyBanner} layout="responsive" height={270} />
       </div>
       <div className="container w-full h-full mx-auto px-10 hidden md:block">
         <WebHistoryTimeline />
