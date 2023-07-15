@@ -1,34 +1,113 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Boualvard Website Portfolio
 
-## Getting Started
+This project is a portfolio website for a company called Bualvard, which is a leading market chain in the region. The website is built with Next.js, JavaScript, and Tailwind CSS.
 
-First, run the development server:
+## Demo
+[https://boualvard.vercel.app/](https://boualvard.vercel.app/)
+![](https://github.com/MohamedRezq/mrezq_boualvard/blob/master/boualvard-1.PNG)
+![](https://github.com/MohamedRezq/mrezq_boualvard/blob/master/boualvard-2.PNG)
 
-```bash
-npm run dev
-# or
-yarn dev
+## Installation & Running
+
+To install this project, clone the repository to your local machine using the following command:
+
+```
+gh repo clone MohamedRezq/mrezq_boualvard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After cloning the repository, navigate to the project directory and run the following command to install the project dependencies:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+To run the project, use the following command:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm run start
+```
 
-## Learn More
+The project will be available on `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions to this project are always welcome! See `contributing.md` for more information on how to get started.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Please adhere to this project's `code of conduct`.
 
-## Deploy on Vercel
+## FAQ
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### What are the system requirements for running this project?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To run this project, you will need to have Node.js version 14 or higher installed on your system. You can download the latest version of Node.js from the official website. This project is designed to be compatible with modern web browsers such as Google Chrome, Mozilla Firefox, and Microsoft Edge. It may not work optimally on older or outdated browsers.
+
+#### How do I contribute to this project?
+
+Please see the contributing guidelines for more detailed information on how to contribute to this project. We appreciate your contributions and look forward to working with you!
+
+#### How is this project licensed?
+
+This project is licensed under the MIT License, which is a permissive open-source license that allows for free use, modification, and distribution of the project. You can find the full text of the license in the LICENSE file. By using or contributing to this project, you agree to abide by the terms of the MIT License.
+
+#### Who can I contact for more information?
+
+If you have any questions or feedback about this project, you can contact the project maintainer at [mrezq.dev@gmail.com](mrezq.dev@gmail.com). Alternatively, you can reach out to us on [LinkedIn](https://www.linkedin.com/in/mohamed-rezq-2021/) ↗ for more information and updates about the project. We appreciate your interest and look forward to hearing from you!
+
+## Feedback
+
+If you have any feedback, please reach out to us at [mrezq.dev@gmail.com](mailto:mrezq.dev@gmail.com)
+
+## Badges
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+## Contact
+
+If you have any questions or feedback about this API, please feel free to contact us at [mrezq.dev@gmail.com](mailto:mrezq.dev@gmail.com). We'd love to hear from you!
+
+## 🚀 About Me
+
+Talented and experienced Full Stack Web Developer with 3 years of freelance basis experience in MERN stack.
+
+## 🛠 Skills
+
+> > Programming Languages:
+
+- ✅ JavaScript
+- ✅ TypeScript
+
+> > Front-end Skills:
+
+- ✅ React.js
+- ✅ Next.js
+- ✅ Gatsby
+- ✅ Redux-Toolkit
+- ✅ GraphQL
+- ✅ HTML5 | CSS3 | Sass | jQuery
+- ✅ Bootstrap | Tailwind | Material-UI
+
+> > Back-end Skills:
+
+- ✅ Node.js | Express.js | MVC Architecture
+- ✅ Restful API Development and Testing
+- ✅ SQL | MySQL | PostgreSQL
+- ✅ NoSQL | MongoDB
+- ✅ AWS (EC2 | S3)
+- ✅ Postman
+- ✅ GraphQL Apollo Server
+
+> > E-Commerce Skills:
+
+- ✅ Stripe
+- ✅ Shopify
+- ✅ BigCommerce
+- ✅ CMS (Prismic | Contentful | Sanity)
+
+E-Commerce Skills:
+
+- ✅ Stripe
+- ✅ Shopify
+- ✅ BigCommerce
+- ✅ CMS (Prismic | Contentful | Sanity)
