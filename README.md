@@ -4,8 +4,8 @@ This project is a portfolio website for a company called Bualvard, which is a le
 
 ## Demo
 [https://boualvard.vercel.app/](https://boualvard.vercel.app/)
-![](https://github.com/MohamedRezq/mrezq_boualvard/blob/master/boualvard-1.PNG)
-![](https://github.com/MohamedRezq/mrezq_boualvard/blob/master/boualvard-2.PNG)
+![](https://github.com/MohamedRezq/mrezq_boualvard/blob/main/boualvard-1.PNG)
+![](https://github.com/MohamedRezq/mrezq_boualvard/blob/main/boualvard-2.PNG)
 
 ## Installation & Running
 
